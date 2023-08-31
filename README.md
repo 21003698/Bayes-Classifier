@@ -22,11 +22,11 @@ To Construct a Bayes Classifier to classiy iris dataset using Python.
 7. Evaluate the classifier's accuracy using the accuracy_score function from scikit-learn.
 
 ## Program:
-''' 
+```
 Developed By: Challa Sandeep
 Register Number:212221240011
-'''
-
+```
+```
 import numpy as np
 from sklearn.datasets import load_iris
 from sklearn.model_selection import train_test_split
@@ -55,7 +55,7 @@ y_pred=clf.predict(X_test)
 
 accuracy=accuracy_score(y_test,y_pred)
 print("Accuracy:",accuracy)
-
+```
 ## Output:
 ![output](https://github.com/21003698/Bayes-Classifier/blob/main/app2.png?raw=true)
 ## Result:
